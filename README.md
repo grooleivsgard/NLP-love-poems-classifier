@@ -60,9 +60,6 @@ The project employs a modular architecture:
   - NB-BERT is implemented using HuggingFace's transformers API.
 - **Result Visualization:** Classification reports and confusion matrices are generated to compare model performance.
 
-**Workflow Diagram:**  
-![Application Workflow Diagram](Images/flowchart.png)
-
 ### Experimental Setup and Results
 
 - **Evaluation Metrics:**  
@@ -98,13 +95,4 @@ The project employs a modular architecture:
 ## Conclusion and Future Work
 
 This study demonstrates that while conventional and advanced NLP models can distinguish love speech from other sentiments in historical Norwegian poetry, there are challenges—especially in handling class imbalance and linguistic evolution. Future work will focus on refining preprocessing steps and exploring more sophisticated modeling approaches to improve the detection of love speech in historical texts.
-
-## References
-
-- Kochmar et al., NLP and Text Classification Chapters
-- Løvås, Logistic Regression for Text Classification
-- Devlin et al., BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
-- HuggingFace Transformers Documentation
-- scikit-learn Documentation
-- Imbalanced Learn Documentation
 
